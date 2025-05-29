@@ -179,8 +179,8 @@
   components:
   - type: StationEvent
     startAnnouncement: false #dont nark on antags
-    weight: 1 #  lower because antags.
-    earliestStart: 50 # late to hopefully have enough ghosts to fill all roles quickly (3) and because antags
+    weight: 4 #  lower because antags.
+    earliestStart: 30 # late to hopefully have enough ghosts to fill all roles quickly (3) and because antags # imp made earlier to be more common
   - type: LoadMapRule
     preloadedGrid: Instigator
 
@@ -208,8 +208,8 @@
   components:
   - type: StationEvent
     startAnnouncement: true
-    weight: 1 # lower because antags
-    earliestStart: 50 # late to hopefully have enough ghosts to fill all roles quickly. (4) & antags
+    weight: 2 # lower because antags
+    earliestStart: 40 # late to hopefully have enough ghosts to fill all roles quickly. (4) & antags # imp made earlier to be more common
   - type: LoadMapRule
     preloadedGrid: ManOWar
 

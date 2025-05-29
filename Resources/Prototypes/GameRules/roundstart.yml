@@ -455,6 +455,18 @@
     scheduledGameRules: !type:NestedSelector
       tableId: UnknownShuttlesFriendlyTable
 
+- type: entity
+  id: SpaceTrafficControlHostileEventScheduler
+  parent: BaseGameRule
+  components:
+  - type: BasicStationEventScheduler
+    minimumTimeUntilFirstEvent: 1800 # 30 mins
+    minMaxEventTiming:
+      min: 1200 # 20 mins
+      max: 2700 # 45 mins
+    scheduledGameRules: !type:NestedSelector
+      tableId: UnknownShuttlesHostileTable
+
 # variation passes
 - type: entity
   id: BasicRoundstartVariation
