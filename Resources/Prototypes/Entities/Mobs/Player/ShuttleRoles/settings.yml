@@ -901,6 +901,11 @@
     - type: Loadout
       prototypes: [ SyndicateFootsoldierTeamLeaderGear ]
       roleLoadout: [ RoleSurvivalSyndicate ]
+    #give the leader traitor objectives, so the team has something to do. until i add objectives just for them
+    - type: AntagRandomObjectives
+      sets:
+      - groups: TraitorObjectiveGroups
+      maxDifficulty: 5
 
 - type: randomHumanoidSettings
   id: SyndieSoldier

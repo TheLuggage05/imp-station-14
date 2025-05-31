@@ -54,7 +54,7 @@
     eyes: ClothingEyesHudSyndicate
     outerClothing: ClothingOuterArmorBasic
     gloves: ClothingHandsGlovesCombat
-    back: ClothingBackpack
+    back: ClothingBackpackSyndicate
     shoes: ClothingShoesBootsCombatFilled
   storage:
     back:
@@ -67,7 +67,7 @@
     jumpsuit: ClothingUniformJumpsuitSyndieFormal
     head: ClothingHeadHatOutlawHat
     outerClothing: ClothingOuterArmorBasicSlim
-    back: ClothingBackpackSatchel
+    back: ClothingBackpackSatchelSyndicate
     pocket1: BaseUplinkRadio25TC
     pocket2: EnergySword
 

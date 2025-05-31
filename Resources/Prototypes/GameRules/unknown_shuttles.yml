@@ -209,7 +209,7 @@
   - type: StationEvent
     startAnnouncement: true
     weight: 2 # lower because antags
-    earliestStart: 40 # late to hopefully have enough ghosts to fill all roles quickly. (4) & antags # imp made earlier to be more common
+    earliestStart: 40 # late to hopefully have enough ghosts to fill all roles quickly. (4) & antags
   - type: LoadMapRule
     preloadedGrid: ManOWar
 

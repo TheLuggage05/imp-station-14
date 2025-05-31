@@ -462,8 +462,8 @@
   - type: BasicStationEventScheduler
     minimumTimeUntilFirstEvent: 1800 # 30 mins
     minMaxEventTiming:
-      min: 1200 # 20 mins
-      max: 2700 # 45 mins
+      min: 1800 # 30 mins
+      max: 7200 # 120 mins | very low chance of a second event
     scheduledGameRules: !type:NestedSelector
       tableId: UnknownShuttlesHostileTable
 
